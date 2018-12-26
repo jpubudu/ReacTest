@@ -6,6 +6,9 @@ app.get('/', (req,res) => {
 });
 
 app.get('/pubudu', (req,res) => {
-  res.send({hi: 'pubudu'});
+  var x= 10;
+  var y= 10;
+  res.send({hi: x*y});
 });
-app.listen(5000);
+
+app.listen(7000);
